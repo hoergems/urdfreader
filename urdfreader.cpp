@@ -60,7 +60,7 @@ bool construct_model (RigidBodyDynamics::Model* rbdl_model,
 
 		RigidBodyDynamics::Joint root_joint (RigidBodyDynamics::JointTypeFixed);
 		if (floating_base) {
-			root_joint = RigidBodyDynamics::JointTypeFloatingBase;
+			//root_joint = RigidBodyDynamics::JointTypeFloatingBase;
 		}
 
 		RigidBodyDynamics::Math::SpatialTransform root_joint_frame = RigidBodyDynamics::Math::SpatialTransform ();
