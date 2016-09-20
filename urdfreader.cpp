@@ -7,7 +7,7 @@ using std::endl;
 namespace shared {
 
 bool construct_model (RigidBodyDynamics::Model* rbdl_model, 
-		              boost::shared_ptr<urdf::ModelInterface> &urdf_model, 
+		              std::shared_ptr<urdf::ModelInterface> &urdf_model, 
 					  bool floating_base, 
 					  bool verbose) {
 
