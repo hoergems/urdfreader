@@ -7,7 +7,6 @@
 #include <stack>
 #include <iostream>
 #include <fstream>
-#include <boost/shared_ptr.hpp>
 
 namespace shared {
 
