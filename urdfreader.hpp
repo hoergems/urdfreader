@@ -11,10 +11,10 @@
 
 namespace shared {
 
-typedef std::shared_ptr<urdf::Joint> JointPtr;
-typedef std::shared_ptr<urdf::Link> LinkPtr;
-typedef std::shared_ptr<urdf::ModelInterface> ModelPtr;
-typedef const std::shared_ptr<const urdf::Link> ConstLinkPtr;
+typedef boost::shared_ptr<urdf::Joint> JointPtr;
+typedef boost::shared_ptr<urdf::Link> LinkPtr;
+typedef boost::shared_ptr<urdf::ModelInterface> ModelPtr;
+typedef const boost::shared_ptr<const urdf::Link> ConstLinkPtr;
 typedef std::map<std::string, LinkPtr > URDFLinkMap;
 typedef std::map<std::string, JointPtr > URDFJointMap;
 
